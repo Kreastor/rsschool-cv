@@ -1,5 +1,5 @@
 ## **[RS School-cv](https://rs.school/js/)** 
-# **Alexandr Kravchuk**
+#  **![Alexandr Kravchuk (27 years old)](img/me.png "Me");**
 ## **Junior Frontend Developer**
 Contact information:  
 
@@ -8,9 +8,9 @@ Contact information:
    * GitHub: <https://github.com/Kreastor>;
    * Discord: Alexandr Kravchuk(@Kreastor).
 
-## **About Me**
+## **About Me:**
 
-  I am 27 years old. I have a higher education in the field of maintenance of service equipment in tourist complexes.
+  I have a higher education in the field of maintenance of service equipment in tourist complexes.
   For the last 4 years I have worked in the supply department at large factories in Russia.
   I am currently studying web development and want to become a web developer. The experience in the equipment department made me understand my strengths, which are well suited for a programmer.
 
@@ -26,10 +26,10 @@ Contact information:
 
   I believe, that my ability to learn and to gain new skills will lead me through this path of becoming a proficient Frontend Developer.
 
-## **Skills**
+## **Skills:**
 
   * HTML
-  * CSS (Framework Bootstrap, Preprocessor (SCSS,SASS,KIT) BEM methodology)
+  * CSS (Framework Bootstrap, Preprocessor (SCSS,SASS,KIT), BEM methodology)
   * JavaScript (Basics)
   * Git, GitHub
   * Adobe Photoshop, Figma
@@ -45,15 +45,14 @@ Contact information:
     return s.substr(Math.ceil(s.length/2 -1), s.length % 2 === 0 ? 2 : 1);
     }  
 ```
-## **Educational projects **
+## **Educational projects:**
+
   * <https://github.com/Kreastor/1-Band-Template.git> - My training layout using bootstrap 5 and some java script (without adaptive). Layout taken from <https://www.w3schools.com/>
   * <https://github.com/Kreastor/Blog-Template.git> - Layout using grids. No adaptive. Layout taken from <https://www.w3schools.com/>
 
 ## **Courses:**
 
-  HTML and CSS Tutorials on the [w3schools](https://www.w3schools.com/)  (img/Course.PNG)
-
-
+![HTML and CSS Tutorials on the [w3schools](https://www.w3schools.com/)](img/Course.PNG)
 ## **Languages:**
 
   * Russian - Native
