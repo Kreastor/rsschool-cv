@@ -1,2 +1,1 @@
-# rsschool-cv
-rsschool-cv
+https://Kreastor.github.io/rsschool-cv/cv
