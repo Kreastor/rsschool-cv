@@ -1,4 +1,4 @@
-## **[RS School-cv](https://rs.school/js/)** 
+ 
   ![photo me](img/me.png "Me")
 #  **Alexandr Kravchuk (27 years old)**
 ## **Junior Frontend Developer**
