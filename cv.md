@@ -1,5 +1,6 @@
 ## **[RS School-cv](https://rs.school/js/)** 
-#  **Alexandr Kravchuk (27 years old)**![photo me](img/me.png "Me");
+  ![photo me](img/me.png "Me")
+#  **Alexandr Kravchuk (27 years old)**
 ## **Junior Frontend Developer**
 Contact information:  
 
@@ -51,7 +52,8 @@ Contact information:
   * <https://github.com/Kreastor/Blog-Template.git> - Layout using grids. No adaptive. Layout taken from <https://www.w3schools.com/>
 
 ## **Courses:**
-HTML and CSS Tutorials on the [w3schools](https://www.w3schools.com/) ![Course](img/Course.PNG)
+HTML and CSS Tutorials on the [w3schools](https://www.w3schools.com/)   
+  ![Course](img/Course.PNG)
 ## **Languages:**
 
   * Russian - Native
