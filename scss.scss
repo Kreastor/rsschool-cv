@@ -1,10 +1,17 @@
+
 body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     background-color: wheat;
-    
+    font-family: 'Smooch Sans', sans-serif;
 }
+
+p,h1,h2,h3,h4,h5,h6,a {
+    margin: 0;
+    padding: 0;
+}
+
 
 .container {
     max-width: 900px;
@@ -12,38 +19,58 @@ body {
     box-shadow: 0px 0px 10px 10px rgb(139, 107, 20);
     display: flex;
 }
+
+.cv-column-list {
+    
+}
+
+.tiile{
+    font-size: 30px;
+    padding-left: 10px;
+}
+
 .cv-leftcolumn {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-
-
+    max-width: 300px;
 		&__img {
+            max-width: 300px;
 		}
+}
 
-		&__courses {
-		}
-}
-.cv-leftcolumn-list {
-}
-.cv-column-list {
-}
-.contact-information {
 
-		&__list {
-		}
-}
+
 .list {
 
 		&__item {
+            font-size: 17px;
+            padding:5px;
+            max-width: 240px;
+		}
+
+        &__item:hover {
+            background-color:rgb(217, 255, 0);
 		}
 
 		&__link {
+            color: orangered;
+            text-decoration: none;
 		}
+
+        &__link:hover {
+            color: rgb(117, 35, 5);
+		}
+
+        &__link:active {
+            color: rgb(255, 69, 1);
+		}
+
 }
 .skills {
 
 		&__list {
+
 		}
 }
 .courses {
@@ -63,35 +90,55 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-
+    max-width: 600px;
+    
 		&__introduction {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            background-color:rgb(217, 255, 0);
+            padding: 20px;
+            
 		}
 
 		&__introduction-name {
+            font-size: 30px;
 		}
 
 		&__introduction-age {
+            font-size: 27px;
 		}
 
 		&__introduction-position {
+            font-size: 30px;
 		}
 
 		&__aboutme {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+           
 		}
 
 		&__aboutme-text {
+            max-width:500px;
 		}
 
 		&__code-example {
+    
 		}
 
 		&__code-example-task {
+         
 		}
 
 		&__code-example-task-text {
+            max-width:500px;
 		}
 
 		&__code-example-task-solution {
+            max-width:500px;
 		}
 }
 .cv-rightcolumn-list {

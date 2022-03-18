@@ -4,6 +4,12 @@ body {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   background-color: wheat;
+  font-family: 'Smooch Sans', sans-serif;
+}
+
+p, h1, h2, h3, h4, h5, h6, a {
+  margin: 0;
+  padding: 0;
 }
 
 .container {
@@ -16,6 +22,11 @@ body {
   display: flex;
 }
 
+.tiile {
+  font-size: 30px;
+  padding-left: 10px;
+}
+
 .cv-leftcolumn {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -26,6 +37,34 @@ body {
           flex-direction: column;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  max-width: 300px;
+}
+
+.cv-leftcolumn__img {
+  max-width: 300px;
+}
+
+.list__item {
+  font-size: 17px;
+  padding: 5px;
+  max-width: 240px;
+}
+
+.list__item:hover {
+  background-color: #d9ff00;
+}
+
+.list__link {
+  color: orangered;
+  text-decoration: none;
+}
+
+.list__link:hover {
+  color: #752305;
+}
+
+.list__link:active {
+  color: #ff4501;
 }
 
 .cv-rightcolumn {
@@ -38,4 +77,59 @@ body {
           flex-direction: column;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  max-width: 600px;
+}
+
+.cv-rightcolumn__introduction {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #d9ff00;
+  padding: 20px;
+}
+
+.cv-rightcolumn__introduction-name {
+  font-size: 30px;
+}
+
+.cv-rightcolumn__introduction-age {
+  font-size: 27px;
+}
+
+.cv-rightcolumn__introduction-position {
+  font-size: 30px;
+}
+
+.cv-rightcolumn__aboutme {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.cv-rightcolumn__aboutme-text {
+  max-width: 500px;
+}
+
+.cv-rightcolumn__code-example-task-text {
+  max-width: 500px;
+}
+
+.cv-rightcolumn__code-example-task-solution {
+  max-width: 500px;
 }
