@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: wheat;
+    
+}
+
+.container {
+    max-width: 900px;
+    margin: 20px auto;
+    box-shadow: 0px 0px 10px 10px rgb(139, 107, 20);
+    display: flex;
+}
+.cv-leftcolumn {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+
+		&__img {
+		}
+
+		&__courses {
+		}
+}
+.cv-leftcolumn-list {
+}
+.cv-column-list {
+}
+.contact-information {
+
+		&__list {
+		}
+}
+.list {
+
+		&__item {
+		}
+
+		&__link {
+		}
+}
+.skills {
+
+		&__list {
+		}
+}
+.courses {
+
+		&__text-area {
+		}
+
+		&__text {
+		}
+}
+.languages {
+
+		&__list {
+		}
+}
+.cv-rightcolumn {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+		&__introduction {
+		}
+
+		&__introduction-name {
+		}
+
+		&__introduction-age {
+		}
+
+		&__introduction-position {
+		}
+
+		&__aboutme {
+		}
+
+		&__aboutme-text {
+		}
+
+		&__code-example {
+		}
+
+		&__code-example-task {
+		}
+
+		&__code-example-task-text {
+		}
+
+		&__code-example-task-solution {
+		}
+}
+.cv-rightcolumn-list {
+}
+.projects {
+
+		&__list {
+		}
+}
