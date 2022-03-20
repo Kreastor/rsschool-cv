@@ -1,2 +1,1 @@
-
-https://Kreastor.github.io/rsschool-cv/cv
+https://Kreastor.github.io/rsschool-cv/
