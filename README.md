@@ -1,1 +1,1 @@
-https://Kreastor.github.io/rsschool-cv/
+https://kreastor.github.io/rsschool-cv/
