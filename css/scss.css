@@ -199,10 +199,6 @@ p, h1, h2, h3, h4, h5, h6, a {
   padding: 10px;
 }
 
-.list__item-right:hover {
-  background-color: wheat;
-}
-
 @media (max-width: 576px) {
   .container {
     display: -webkit-box;
