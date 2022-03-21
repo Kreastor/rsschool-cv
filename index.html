@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/scss.css">
+    <title>CV</title>
+</head>
+<body>
+    <section class="container"> 
+        <div class="cv-leftcolumn">
+            <img class="cv-leftcolumn__img" src="img/me.png" alt="me">
+            <div class="cv-leftcolumn-list cv-column-list contact-information">
+                <h1 class="tiile">Contact-information:</h1>
+                <ul class="contact-information__list list">
+                    <li class="list__item"><strong>Phone:</strong> 8 (996) 963-95-35;</li>
+                    <li class="list__item"><strong>E-mail:</strong><a class="list__link" href="mailto:sascha977@yandex.ru"> sascha977@yandex.ru;</a></li>
+                    <li class="list__item"><strong>GitHub:</strong><a class="list__link" href="https://github.com/Kreastor"> https://github.com/Kreastor;</a></li>
+                    <li class="list__item"><strong>Discord:</strong> Alexandr Kravchuk(@Kreastor).</li>
+                </ul>
+            </div>
+            <div class="cv-leftcolumn-list skills">
+                <h1 class="tiile">Skills:</h1>
+                <ul class="skills__list list">
+                    <li class="list__item">HTML</li>
+                    <li class="list__item">CSS(Framework Bootstrap, Preprocessor (SCSS,SASS,KIT), BEM methodology)</li>
+                    <li class="list__item">JavaScript (Basics)</li>
+                    <li class="list__item">Git, GitHub, Markdown</li>
+                    <li class="list__item">Adobe Photoshop, Figma</li>
+                    <li class="list__item">VSCode</li>
+                </ul>
+            </div>
+            <div class="cv-leftcolumn__courses courses">
+                <h1 class="tiile">Courses:</h1>
+                <div class="courses__text-area">
+                    <p class="courses__text">HTML and CSS Tutorials on the <a class="list__link" href="https://www.w3schools.com/"> w3schools</a></p>
+                    <img class="cv-leftcolumn__img" src="img/Course.PNG" alt="course">
+                </div>
+            </div>
+            <div class="cv-leftcolumn-list languages">
+                <h1 class="tiile">Languages:</h1>
+                <ul class="languages__list list">
+                    <li class="list__item--languages">Russian - Native</li>
+                    <li class="list__item--languages">English - Pre-Intermediate</li>
+                </ul>
+            </div>
+        </div>
+        <div class="cv-rightcolumn">
+            <div class="cv-rightcolumn__introduction">
+                <h1 class="cv-rightcolumn__introduction-name">Alexandr Kravchuk</h1>
+                <h1 class="cv-rightcolumn__introduction-age">27 years old</h1>
+                <h1 class="cv-rightcolumn__introduction-position">Junior Frontend Developer</h1>
+            </div>
+            <div class="cv-rightcolumn__aboutme">
+                <h1 class="tiile tiile-right-column">About me</h1>
+                <hr>
+                <div class="cv-rightcolumn__aboutme-story">
+                    <p class="cv-rightcolumn__aboutme-text">
+                        I have a higher education in the field of maintenance of service equipment in tourist complexes. For the last 4 years I have worked in the supply department at large factories in Russia. I am currently studying web development and want to become a web developer. The experience in the equipment department made me understand my strengths, which are well suited for a programmer.
+                    </p>
+                    <p class="cv-rightcolumn__aboutme-text">
+                        First, it is perseverance. Drawing up multi-line contracts (from 100 to 400 pages) for various foreign counterparties and their coordination with the legal department.
+                    </p> 
+                    <p class="cv-rightcolumn__aboutme-text">
+                        Secondly, Excel coding. Editing and writing functionality in excel files for tenders. (vendor comparison forms, etc.)
+                    </p> 
+                    <p class="cv-rightcolumn__aboutme-text">
+                        Thirdly, Soft skills. Ability to work in a team to achieve a common goal. Ability to listen and constructively convey ideas and thoughts. I also have a positive mentoring experience.
+                    </p> 
+                    <p class="cv-rightcolumn__aboutme-text">
+                        Fourth, the ability to learn quickly. I started working as a purchasing engineer with no work experience. Six months later, I was promoted to the position of Lead Purchasing Specialist. After 2 years, I was promoted to the head of the department.
+                    </p> 
+                    <p class="cv-rightcolumn__aboutme-text"> 
+                        And finally, immersion in the problems and tasks of business. When doing my job in the company, I always interpret myself as part of this company. Plunging into business problems, it is easier to understand how to help the business and in what direction to develop in order to bring more income to the business
+                    </p> 
+                    <p class="cv-rightcolumn__aboutme-text">
+                        I believe, that my ability to learn and to gain new skills will lead me through this path of becoming a proficient Frontend Developer.
+                    </p>
+                </div>
+            </div>
+            <div class="cv-rightcolumn__code-example">
+                <h1 class="tiile tiile-right-column">Code example</h1>
+                <hr>
+                <div class="cv-rightcolumn__code-example-task">
+                    <p class="cv-rightcolumn__code-example-task-text"> 
+                        <strong>Get the Middle Character from CODEWARS:</strong> You are going to be given a word. Your  job is to return the middle character of the word. If the word’s length is odd, return the middle character. If the word’s length is even, return the middle 2 characters.
+                    </p>
+                    <p class="cv-rightcolumn__code-example-task-solution">
+                            function getMiddle(s) {<br>
+                                return s.substr(Math.ceil(s.length/2 -1), s.length % 2 === 0 ? 2 : 1);<br>
+                            }
+                    </p>
+                </div>
+            </div>
+            <div class="cv-rightcolumn-list cv-column-list projects">
+                <h1 class="tiile tiile-right-column">Educational projects</h1>
+                <hr>
+                <ul class="projects__list list">
+                    <li class="list__item-right"><a class="list__link" href="https://github.com/Kreastor/1-Band-Template.git">https://github.com/Kreastor/1-Band-Template.git</a> - My training layout using bootstrap 5 and some java script (without adaptive). Layout taken from <a class="list__link" href="https://www.w3schools.com/"> w3schools</a></li>
+                    <li class="list__item-right"><a class="list__link" href="https://github.com/Kreastor/Blog-Template.git">https://github.com/Kreastor/Blog-Template.git</a> - Layout using grids. No adaptive. Layout taken from <a class="list__link" href="https://www.w3schools.com/"> w3schools</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
